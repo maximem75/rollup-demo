@@ -1,3 +1,3 @@
-window.onload = () => {
-  console.log('demo rollup');
-};
+import './style/style.css';
+
+export {Test as default} from './class/test';
