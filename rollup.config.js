@@ -6,7 +6,7 @@ import css from 'rollup-plugin-css-only';
 import obfuscatorPlugin from 'rollup-plugin-javascript-obfuscator';
 
 export default {
-  entry: 'src/index.js',
+  input: 'src/index.js',
   output: {
     name: 'index',
     file: 'dist/index.js',
